@@ -20,7 +20,7 @@ export default function ImageDemoPage() {
             <div style={{ position: "relative", width: "1000px", height: "300px", background: "cyan" }}>
                 {/* fill 속성 제공 및 부모 크기에 적절히 맞추도록 object-fit 속성 적용 */}
                 <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/2560px-Nextjs-logo.svg.png"
+                    src="next.svg"
                     alt="Description for Picture..."
                     fill
                     style={{ objectFit: 'contain' }}
